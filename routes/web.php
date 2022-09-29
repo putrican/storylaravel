@@ -31,10 +31,16 @@ Route::get('/page/checkshipping', 'PageController@checkshipping');
 Route::post('/page/prosesshipping', 'PageController@processhipping');
 
 
+Route::get('/join', 'JoinController@join');
+Route::post('/join', 'JoinController@prosesJoin');
+Route::get('/logout', 'JoinController@logout');
+Route::redirect('/', '/join');
+// Route:: get('/admin1', 'JoinController@admin1');
 
 
 
 Route::resource('/admin', 'AdminController');
+Route:: get('/admin1', 'Admin1Controller@index')->name('admin1.index');
 
 
 
