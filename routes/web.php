@@ -36,6 +36,8 @@ Route::post('/join', 'JoinController@prosesJoin');
 Route::get('/logout', 'JoinController@logout');
 Route::redirect('/', '/join');
 // Route:: get('/admin1', 'JoinController@admin1');
+Route::get('/course', 'CourseController@index' );
+
 
 
 
@@ -44,10 +46,7 @@ Route:: get('/admin1', 'Admin1Controller@index')->name('admin1.index');
 
 
 
-
-
-
-
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
+
