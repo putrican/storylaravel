@@ -41,13 +41,13 @@
 
   
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+  <div class="content-wrapper bg-primary ">
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Course Online Programing</h1>
+            <h1 class="m-0 text-dark">Halaman Mentor</h1>
           </div><!-- /.col -->
         
         </div><!-- /.row -->
@@ -56,82 +56,10 @@
     <!-- /.content-header -->
 
     <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
-        <!-- Small boxes (Stat box) -->
-        <div class="row">
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>2</h3>
-
-                <p>Mentor</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="mentor" class="small-box-footer">Mentor <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-         
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>50</h3>
-
-                <p>Course</p>
-              </div>           
-              <div class="icon">
-                <i class="fa fa-pause" style="font-size:36px;"></i>
-              </div>
-              <a href="course" class="small-box-footer">Course <i class="fas fa-arrow-circle-right"></i>
-           
-              </a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>10</h3>
-
-                <p>Module</p>
-              </div>
-              <div class="icon">
-                <i class='fas fa-desktop' style='font-size:24px'></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>2</h3>
-
-                <p>Student</p>
-              </div>
-              <div class="icon">
-                <i class='far fa-grin-alt' style='font-size:36px'></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-        </div>
-             
-        <!-- /.row -->
-        <!-- Main row -->
-      
-        <!-- /.row (main row) -->
-      </div><!-- /.container-fluid -->
-    </section>
-
+    
+  </div>
+</div>
+   
   
     <!-- /.content -->
   </div>
@@ -183,3 +111,8 @@
 <script src="{{ asset('backend/dist/js/demo.js') }}"></script>
 </body>
 </html>
+
+    
+
+
+

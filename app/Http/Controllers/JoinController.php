@@ -16,7 +16,7 @@ class JoinController extends Controller
             'username' =>'required'
         ]);
    
-        $validUsername = ['Ani', 'Budi', 'Cantika','Putri'];
+        $validUsername = ['Ani', 'Budi', 'Cantika','Putri Johanna'];
 
         if(in_array($request->username, $validUsername)){
             session(['username' => $request->username]);

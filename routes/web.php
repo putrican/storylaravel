@@ -37,6 +37,7 @@ Route::get('/logout', 'JoinController@logout');
 Route::redirect('/', '/join');
 // Route:: get('/admin1', 'JoinController@admin1');
 Route::get('/course', 'CourseController@index' );
+Route::get('/mentor', 'MentorController@index' );
 
 
 
@@ -44,9 +45,12 @@ Route::get('/course', 'CourseController@index' );
 Route::resource('/admin', 'AdminController');
 Route:: get('/admin1', 'Admin1Controller@index')->name('admin1.index');
 
-
-
 Auth::routes();
 
-// Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/homes', function () {
+    return view('homes',[
+        "title" => "Homes"
+    ]);
+});
 
